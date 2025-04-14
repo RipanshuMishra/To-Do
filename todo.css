@@ -1,0 +1,88 @@
+*{
+    background-color: #615c5c ;
+    margin:0;
+    
+}
+.super{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub{
+    background-color: #464545;
+
+}
+.container{
+    border:2px solid whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    padding:20px;
+    border-radius: 4px;
+    margin-top: 240px;
+    box-shadow: #535151;
+    background-color: #464545;
+    
+}
+h1{
+    color: antiquewhite;
+    margin:8px;
+    background-color: #464545;
+    
+}
+
+#addtask{
+    margin:8px;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #8d8c8c;
+    background-color: #535151;
+    color:whitesmoke;
+    
+}
+input::placeholder {
+  opacity: 0.5;
+  color: whitesmoke;
+}
+#add{
+    padding:5px;
+    border-radius: 3px;
+    border: 1px solid #858585;
+    color:whitesmoke;
+    background-color: #535151;
+}
+#add:hover{
+    background-color: #696969;
+    cursor: pointer;
+}
+#addtask:hover{
+    cursor: pointer;
+}
+#todo-list{
+margin-left: 8px;
+   list-style-type: none;
+   width: 225px;
+   padding-left: 0;
+   background-color: #464545;
+   
+  
+}
+li{
+    margin:2px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+li button{
+    border-radius: 4px;
+    border:1px solid #858585;
+    color: whitesmoke;
+
+}
+li button:hover{
+    cursor: pointer;
+    background-color:#535151;
+}
